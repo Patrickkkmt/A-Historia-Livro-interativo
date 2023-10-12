@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+h1 {
+    color: #007bff;
+}
+.botao1 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #bdab0e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botao1:hover {
+    background-color: #b39800;   
+}
+.botao2 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3610a0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botao2:hover {
+    background-color: #3f00b3;   
+}
+.botao3 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #10a017;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botao3:hover {
+    background-color: #00b300;   
+}
+a{
+    text-decoration: none;
+}
